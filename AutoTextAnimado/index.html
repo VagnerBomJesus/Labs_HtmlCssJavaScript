@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" content="stylesheet" />
+    <title>Automático Texto Animado</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!--main-->
+    <section class="main">
+        <!--backgraund img-->
+        <div class="bg">
+            <img src="https://picsum.photos/500/500.jpg" alt="">
+        </div>
+        <!--Texto-->
+        <div class="text">
+            <strong>Forneço a você um site <span class="type"></span></strong>
+            <p>Design de site responsivo usando HTML, CSS e javaScript</p>
+            <a href="https://github.com/VagnerBomJesus" class="btn">Sobre Developer</a>
+        </div>
+
+    </section>
+
+
+    <!--type.js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <!--Script-->
+    <script>
+        var typed = new Typed('.type', {
+            
+            strings: ['Profissional ', 'Moderno, Totalmente Funcional'],
+            typeSpeed:100,
+            backSpeed:70,
+            loop:true,
+        });
+    </script>
+</body>
+
+</html>
